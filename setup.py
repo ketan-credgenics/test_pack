@@ -1,4 +1,7 @@
-from __future__ import annotations
+import setuptools
 
-from setuptools import setup
-setup()
+setuptools.setup(
+    name="package_ketan_test",
+    version="1.0",
+    packages=setuptools.find_packages(),
+)
