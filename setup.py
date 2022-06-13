@@ -7,8 +7,5 @@ setup(
     url='',
     author='Ketan Bassi',
     author_email='ketan.bassi@credgenics.com',
-    install_requires = [
-        "Quart==0.17.0",
-        "asyncpg==0.21.0"
-    ]
+   
 )
